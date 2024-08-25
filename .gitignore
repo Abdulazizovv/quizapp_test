@@ -1,0 +1,80 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.pyo
+*.sqlite3
+
+# Django
+*.env
+*.local
+*.migrations/
+db.sqlite3
+.env
+
+# macOS
+.DS_Store
+
+# Virtualenv
+venv/
+ENV/
+env/
+.Python
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+
+# Testing
+.tox/
+.nox/
+pytest_cache/
+.pytest_cache/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pycharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Docker
+*.log
+*.pid
+docker-compose.override.yml
+docker-compose.local.yml
+.env
+
+# Heroku
+/.heroku
+*.orig
+
+# Local history (optional)
+.history/

@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}
+Registration
+{% endblock title %}
+
+{% block content %}
+<div class="wrapper">
+  <form method="post">
+    {% csrf_token %}
+    <h1>Registration</h1>
+
+    <div class="input-box">
+      <div class="input-field">
+        <input type="text" name="full_name" placeholder="Full name" required />
+        <i class="bx bxs-user"></i>
+      </div>
+      <div class="input-field">
+        <input type="text" name="username" placeholder="Username" required />
+        <i class="bx bxs-user"></i>
+      </div>
+    </div>
+    
+    <div class="input-box">
+      <div class="input-field">
+        <input type="password" name="password1" placeholder="Password" required />
+        <i class="bx bxs-lock-alt"></i>
+      </div>
+      <div class="input-field">
+        <input type="password" name="password2" placeholder="Confirm Password" required />
+        <i class="bx bxs-lock-alt"></i>
+      </div>
+    </div>
+    
+    <button type="submit" class="btn">Registration</button>
+    <div class="register-link">
+      <p>Do you have an account? <a href="{% url 'login' %}">Login</a></p>
+    </div>
+  </form>
+</div>
+{% endblock content %}

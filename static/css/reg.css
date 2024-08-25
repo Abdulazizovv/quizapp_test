@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(https://img.freepik.com/free-photo/galactic-night-sky-astronomy-science-combined-generative-ai_188544-9656.jpg?t=st=1717961284~exp=1717964884~hmac=d1cdc3f85a4e6706f07cb7831c7d8110d047bee4b6d4618cdcbaa4d34406df71&w=1060)
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper {
+  width: 750px;
+  background-color: burlywood;
+  color: #fff;
+  border-radius: 10px;
+  padding: 40px 35px 55px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wrapper .input-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.input-box .input-field {
+  position: relative;
+  width: 48%;
+  margin: 13px 0;
+  height: 50px;
+}
+
+.input-box .input-field input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  outline: none;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 6px;
+  padding: 15px 15px 15px 40px;
+}
+
+.input-box .input-field input::placeholder {
+  color: #fff;
+}
+
+.input-box .input-field i {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.wrapper label {
+  font-size: 14.5px;
+  margin: 10px 0 23px;
+  display: inline-block;
+}
+
+.wrapper label input {
+  accent-color: #fff;
+  margin-right: 5px;
+}
+
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
